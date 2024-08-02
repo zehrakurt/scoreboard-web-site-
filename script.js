@@ -21,6 +21,6 @@ function setGoal(team) {
 function changeTeamName(team) {
     let newName = prompt("Please enter new team name:");
     if (newName !== null && newName.trim() !== "") {
-        document.getElementById('team' + team).innerHTML = newName + " <button onclick='changeTeamName(\"" + team + "\")'>change name</button>";
+        document.getElementById('team' + team).innerHTML = newName ;
     }
 }
